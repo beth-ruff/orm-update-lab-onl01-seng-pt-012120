@@ -47,7 +47,7 @@ attr_reader :id
    student 
  end 
  
- def self.new_from_db(array)
+ def self.new_from_db
    new_student = self.new 
    new_student.id = array[0]
    new_student.name = array[1]
